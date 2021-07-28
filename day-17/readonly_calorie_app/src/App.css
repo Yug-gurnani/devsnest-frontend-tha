@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* margin: auto; */
+}
+
+.row {
+  /* margin: 10px; */
+  padding: 10px;
+  transition: all ease-in .2s;
+}
+.row:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: cyan;
+  max-width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid aqua;
+}
+
+/* .container::-webkit-scrollbar{
+  display: none;
+} */
+
