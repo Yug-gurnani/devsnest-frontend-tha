@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    
+    max-height: 500px;
+    max-width: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.row {
+    box-shadow: 2px 3px 9px -1px #000;
+    margin: 10px;
+    padding: 10px;
+    transition: .2s ease-in;
+}
+
+.row:hover {
+    transform:scale(1.05);
+}
+
+.row .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.row button:hover {
+    background-color: turquoise;
+}
